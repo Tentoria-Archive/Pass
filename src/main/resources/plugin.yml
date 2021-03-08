@@ -1,0 +1,16 @@
+name: PassPlugin
+version: 1.0
+description: The permissions plugin for Tentoria
+author: Tentoria(CloudGamer360)
+load: POSTWORLD
+main: net.tentoria.pass.PassPlugin
+commands:
+  tickets:
+    description: Tells you how many tickets you have.
+    usage: /tickets
+  settickets:
+    description: Sets a player's tickets.
+    usage: /settickets <player> <amount>
+  setrank:
+    description: Sets a player's rank.
+    usage: /setrank <player> <rank>
